@@ -1,16 +1,8 @@
-body, ul, li, p {
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
-	font-size: 1.2rem;
-	font-family: Arial, Helvetica, sans-serif;
-}
+@import './reset.scss';
+
 
 body {
 	margin-bottom: 100px;
-}
-a {
-	text-decoration: none;
 }
 
 h1 {
@@ -119,7 +111,7 @@ img {
 	.grid2 {
 		grid-template-columns: 1fr;
 	}
-	
+
 	.sidebar {
 		display: flex;
 		overflow-x: scroll;
